@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/quallyol/"}
+{"dg-publish":true,"permalink":"/quallyol/","tags":"gardenEntry"}
 ---
 
 
