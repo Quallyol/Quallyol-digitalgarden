@@ -1,2 +1,25 @@
 body {
+  :root{
+    --background-primary: rgb(143, 145, 178);
+    --background-secondary: rgb(201, 203, 214);
+    --text-normal: #242425;
+    --text-accent: rgb(77, 77, 79);
+    --file-margins: 32px;
+}
+
+h1 {
+    color: #2a2a2b;
+}
+
+h2 {
+    color: #cc968c;
+}
+
+h3 {
+    color: #bbd1b2;
+}
+
+h4 {
+    color: #b9d0d7;
+}
 }
