@@ -5,32 +5,32 @@
 
 
 :root{
-    --background-primary: rgb(143, 145, 178);
-    --background-secondary: rgb(201, 203, 214);
-    --text-normal: #242425;
-    --text-accent: rgb(77, 77, 79);
+    --background-primary: rgb(32, 31, 31);
+    --background-secondary: rgb(57, 56, 56);
+    --text-normal: #dcddde;
+    --text-accent: rgb(97, 186, 245);
     --file-margins: 32px;
 }
 
 h1 {
-    color: #2a2a2b;
+    color: #FFEF60;
 }
 
 h2 {
-    color: #cc968c;
+    color: #F06449;
 }
 
 h3 {
-    color: #bbd1b2;
+    color: #D4FCC3;
 }
 
 h4 {
-    color: #b9d0d7;
+    color: #72DCFF;
 }
 
 button {
     border: none;
-    color: grey;
+    color: white;
     padding: 5px 15px;
 }
 
@@ -40,6 +40,18 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.theme-dark {
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-family: 'Roboto', sans-serif;
+}
+
+.theme-light {
+    background: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 a.is-unresolved{
@@ -77,6 +89,12 @@ blockquote p {
 
 p>code {
     //Inline code
-    color: #c87389;
-    background-color: #474747;
+    color: #c7254e;
+    background-color: #1a1a1a;
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
